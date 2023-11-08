@@ -30,7 +30,7 @@ code = "a.fina aacute.fina abreve.fina abreveacute.fina abrevedotbelow.fina abre
 name = n_fina;
 },
 {
-code = "space period comma colon semicolon question exclam hyphen emdash endash ";
+code = "space period comma colon semicolon question exclam hyphen emdash endash ellipsis asterisk slash backslash parenright braceright bracketright quotesinglbase quotedblbase quotedblright quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle \012";
 name = africa_pri_ending;
 },
 {
@@ -25470,7 +25470,7 @@ unicode = 0257;
 {
 color = 4;
 glyphname = dzcaron;
-lastChange = "2016-08-03 22:51:12 +0000";
+lastChange = "2023-11-08 02:01:33 +0000";
 layers = (
 {
 components = (
@@ -25483,7 +25483,7 @@ transform = "{1, 0, 0, 1, 450, 0}";
 }
 );
 layerId = "ECEFE970-1BBB-4E0A-A452-CEB55884B4A3";
-width = 895;
+width = 896;
 }
 );
 leftKerningGroup = a;
