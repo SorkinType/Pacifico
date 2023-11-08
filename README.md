@@ -1,23 +1,3 @@
-----
-
-## Setting up your font
-
-* **New repositories.** Hit the green button above ("Use this template") to create your own repository. We then need to update the workflow permissions. Go to Settings > Actions > General > Workflow permissions and enable "Read and write permissions". Finally, rerun the failed github action by going to Actions > Initial commit > Re-run jobs > Re-run all jobs.
-
-*Please note that a Github Action job will be executed once you've created the repository which will populate the readme and build dependencies. This job will fail because it was executed with incorrect permissions. The steps above will fix the permissions issue and rerun the job. Please wait for the job to complete and pass before pulling the repo to your local system.*
-
-* **Updating a repository.** To update your font repository to bring in the latest best-practices from the Google Fonts Project Template, run `make update-project-template` from the command line.
-
-* Replace the font sources in the `sources` directory with your own font sources. These sources may be either in Glyphs format or UFO/Designspace formats.\
-\
-Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped to the platform have to match the [Google Fonts Specifications](https://github.com/googlefonts/gf-docs/tree/main/Spec). Please read them carefully.\
-\
-*(The sample font provided in this template is [Rubik](https://github.com/googlefonts/rubik/) by Philipp Hubert, Sebastian Fischer, and contributors.)*
-
-* Then reference the sources in the file `sources/config.yaml`, as well as making any other changes you would like to make based on the instructions in the [Google Fonts Builder documentation](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/builder/__init__.py).
-
-* `CustomFilter_GF_Latin_All.plist` in `sources` is practical if you use GlyphsApp, you can remove it otherwise. Placed in the same directory as the your `.glyphs` file, it will allow Glyphs to display a filter list for all GF Latin glyphsets in app. To make sure your font supports the minimal set required by Google Fonts, look at the `GF_Latin_Core` filter list. Find other glyphsets and list formats for different software in [GF Glyphsets repository](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets).
-
 * Add yourself to the `AUTHORS.txt` and `CONTRIBUTORS.txt` files.
 
 * Update the first line of the OFL.txt (year and project name). Update also the Copyright string in the sources, it has to be the same as the OFL.txt. The `.glyphs` file in this repo gives you required base charset and font info.
