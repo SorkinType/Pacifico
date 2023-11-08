@@ -3,7 +3,10 @@
 .formatVersion = 3;
 DisplayStrings = (
 "/Ecircumflexgrave.ss01",
-"∆"
+"∆",
+T,
+n,
+o
 );
 classes = (
 {
@@ -1314,6 +1317,12 @@ pos = 575;
 }
 );
 name = Regular;
+stemValues = (
+142,
+114,
+121,
+0
+);
 userData = {
 GSCornerRadius = 30;
 GSOffsetHorizontal = 49;
@@ -134902,6 +134911,20 @@ value = "http://www.sansoxygen.com";
 {
 key = vendorID;
 value = newt;
+}
+);
+stems = (
+{
+name = hStem0;
+},
+{
+name = hStem1;
+},
+{
+name = vStem0;
+},
+{
+name = vStem1;
 }
 );
 unitsPerEm = 1000;
