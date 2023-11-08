@@ -8,3 +8,9 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+Vernon Adams <vern@newtypography.co.uk>
+Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Marc Foley <m.foley.88@gmail.com>
+Raphael Alegbeleye CH <r.o.alegbeleye@gmail.com>
+Eben Sorkin <sorkineben@gmail.com>
