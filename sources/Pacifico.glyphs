@@ -253,7 +253,6 @@ feature ordn;
 feature fina;
 feature case;
 feature ss01;
-feature ss02;
 feature ss03;
 feature ss04;
 feature ss05;
